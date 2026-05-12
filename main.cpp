@@ -7,7 +7,7 @@
 // --------------------------------------------------
 
 double add(double a, double b) {
-    return a - b;   // <-- This will PASS
+    return a + b;   // <-- This will PASS
 }
 
 // --------------------------------------------------
@@ -15,7 +15,7 @@ double add(double a, double b) {
 // --------------------------------------------------
 
 double subtract(double a, double b) {
-    return a - b;   // <-- Wrong on purpose (will FAIL)
+    return a + b;   // <-- Wrong on purpose (will FAIL)
 }
 
 // --------------------------------------------------
